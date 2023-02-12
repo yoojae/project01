@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="./js/login.js"></script>
+
+</head>
+<body>
+
+    <div class="wrap">
+        <div class="logo"><img src="./images/yp_logo.png" alt="logo"></div>
+
+        <section class="tab_box">
+            <div class="tab">
+                <div class="label_member on">회원</div>
+                <div class="label_nonmember">비회원</div>
+            </div>
+            <div class="sheet_box">
+                <div class="sheet_member sheet so">
+                    <input type="text" placeholder="아이디를 입력해주세요" id="user_id" class="user_id">
+                    <input type="text" placeholder="비밀번호를 입력해주세요" id="user_pw" class="user_pw">
+                    <button class="login_btn">로그인</button>
+    
+                    <div class="chk">
+                        <div class="chk_non" checked><i class="fa-regular fa-circle-check"></i> 아이디 저장</div>
+                        <div class="chk_color"><i class="fa-solid fa-circle-check"></i> 아이디 저장</div>
+                    </div>
+
+                    <div class="find">
+                        <a href="#">아이디 / 비밀번호 찾기</a>
+                    </div>
+
+                    <div class="join">
+                        <a href="../join_page/join.html">
+                            회원가입
+                        </a>
+                    </div>
+
+                    <span class="sns_login"><hr><p>SNS로그인</p><hr></span>
+                    <div class="login_sns">
+                        <div><a href="#"><img src="./images/naver_logo.png" alt="logo01"></a></div>
+                        <div><a href="#"><img src="./images/kakao_logo.png" alt="logo02"></a></div>
+                        <div><a href="#"><img src="./images/facebook_logo.png" alt="logo03"></a></div>
+                    </div>
+
+                </div>
+                <div class="sheet_nonmember sheet">
+                    <input type="text" placeholder="주문번호를 입력해주세요" id="user_order" class="user_order">
+                    <input type="text" placeholder="주문번호 비밀번호를 입력해주세요" id="user_orderpw" class="user_orderpw">
+                    <button class="btn_confirm">확인</button>
+                    <div class="order_find">
+                        <a href="#">주문번호 찾기 / 주문 비밀번호 찾기</a>
+                    </div>
+                    <p class="text1">회원가입을 하시겠습니까?</p>
+                    <p class="text2">회원가입 하고 영풍문고의 다양한 혜택을 누려보세요</p>
+                    
+                    <div class="non_join">
+                        <a href="../join_page/join.html">
+                            회원가입
+                        </a>
+                    </div>
+                    
+                </div>
+            </div>
+
+        </section> 
+
+        
+    </div>
+
+    <footer class="footer">
+        <hr>
+        <p>ⓒ YPBOOKS</p>
+    </footer>
+    
+
+
+
+    
+</body>
+</html>

@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sub_page</title>
+    <link rel="stylesheet" href="./css/sub.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+</head>
+<body>
+
+    <div class="aside_ad_right">
+        <div class="float_banner">
+            <div class="float_box">
+                <div><a href="#">나의 YPBOOK</a></div>
+        
+                <div>
+                    <input type="radio" name="floatad" id="float01">
+                    <input type="radio" name="floatad" id="float02" checked>
+                    <input type="radio" name="floatad" id="float03">
+                    <div class="float_label">
+                        <label class="float01" for="float01"><i class="fa-solid fa-circle"></i></label>
+                        <label class="float02" for="float02"><i class="fa-solid fa-circle"></i></label>
+                        <label class="float03" for="float03"><i class="fa-solid fa-circle"></i></label>
+                    </div>
+                    <div class="floatimg01 flo"><img src="../images/float_tabimg01.png" alt="floatimg01"></div>
+                    <div class="floatimg02 flo"><img src="../images/float_tabimg02.png" alt="floatimg02"></div>
+                    <div class="floatimg03 flo"><img src="../images/float_tabimg03.png" alt="floatimg03"></div>
+                </div>
+            
+                <p>최근 본 상품</p>
+                <div></div>
+            </div>
+            
+            <div>
+                <a href="#">
+                    <img src="../images/float_adimg01.jpg" alt="floatadimg">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <input type="checkbox" id="chk_ad" checked>    
+    <div class="top_ad">
+        <div class="top_ad_img">
+            <a href="#"><img src="../images/top_ad.jpg" alt="top_ad"></a>
+        </div>
+        <label for="chk_ad" class="top_ad_label">
+            <img src="../images/top_ad_btn_img.png" alt="adbtn">
+        </label>
+    </div>
+    
+    <div class="top">
+        <a href="#header"><i class="fa-regular fa-circle-up"></i></a>
+    </div>
+    
+    <input type="checkbox" id="mob">
+    <header class="header_box" id="header">
+        <nav class="gnb">
+            <ul>
+                <li><a href="#">마이페이지</a></li>
+                <li><a href="../login_page/login.html">로그인</a></li>
+                <li><a href="../join_page/join.html">회원가입</a></li>
+                <li><a href="#">장바구니<i class="fa-solid fa-basket-shopping"></i></a></li>
+                <li><a href="#">주문배송</a></li>
+                <li><a href="#">고객센터</a></li>
+            </ul>
+        </nav>
+
+        <div class="header">
+            <label class="open" for="mob"><i class="fa-solid fa-bars"></i></label>
+
+            <div class="logo">
+                <a href="../index.html"><img src="../images/yp_logo.png" alt="yp_logo"></a>
+            </div>
+            <div class="box">
+                <ul class="ad_text">
+                    <li><a href="#">단순한 열정</a></li>
+                    <li><a href="#">딥타임</a></li>
+                    <li><a href="#">작은 땅의 야수들</a></li>
+                </ul>
+                <div class="search">
+                    <select name="total_search">
+                        <option value="total">통합검색</option>
+                        <option value="domestic">국내도서</option>
+                        <option value="foreign">외국도서</option>
+                        <option value="newbook">신간도서</option>
+                        <option value="ebook">eBook</option>
+                    </select>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <input type="radio" name="mini_slide" id="mini01">
+            <input type="radio" name="mini_slide" id="mini02">
+            <input type="radio" name="mini_slide" id="mini03" checked>
+            <div class="mini_banner">
+                <ul>
+                    <li>
+                        <label for="mini03" class="left">◂</label>
+                        <label for="mini02" class="right">▸</label>
+                        <img src="../images/mini_banner01.jpg" alt="mini01">
+                    </li>
+                    <li>
+                        <label for="mini01" class="left">◂</label>
+                        <label for="mini03" class="right">▸</label>
+                        <img src="../images/mini_banner02.jpg" alt="mini02">
+                    </li>
+                    <li>
+                        <label for="mini02" class="left">◂</label>
+                        <label for="mini01" class="right">▸</label>
+                        <img src="../images/mini_banner03.jpg" alt="mini03">
+                    </li>
+                </ul>
+            </div>
+
+            <div class="mob_icon">
+                <a href="#">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-solid fa-user"></i>
+                </a>
+            </div>
+
+            <div class="mob_search_box">
+                <div class="mob_search">
+                    <input type="text" placeholder="&nbsp;&nbsp;노벨 문학상 아니에르노">
+                    <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+            </div>
+        
+            <input type="radio" name="tab" id="mob_t_home" checked>
+            <input type="radio" name="tab" id="mob_t_domestic">
+            <input type="radio" name="tab" id="mob_t_foreign">
+            <input type="radio" name="tab" id="mob_t_new">
+            <input type="radio" name="tab" id="mob_t_ebook">
+            <input type="radio" name="tab" id="mob_t_theme">
+            <input type="radio" name="tab" id="mob_t_member">
+            <div class="mob_lnb_box">
+                <div class="mob_lnb">
+                    <ul>
+                        <label for="mob_t_home" class="tab01"><li>홈</li></label>
+                        <label for="mob_t_domestic" class="tab02"><li>국내도서</li></label>
+                        <label for="mob_t_foreign" class="tab03"><li>외국도서</li></label>
+                        <label for="mob_t_new" class="tab04"><li>신간도서</li></label>
+                        <label for="mob_t_ebook" class="tab05"><li>eBook</li></label>
+                        <label for="mob_t_theme" class="tab06"><li>기획테마</li></label>
+                        <label for="mob_t_member" class="tab07"><li>회원혜택</li></label>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="lnb_box">
+        <input type="checkbox" id="chk_allmenu">
+        
+        <div class="lnb">
+            <label for="chk_allmenu">
+                <div class="chk_btn"><img src="../images/lnb_menu_bar_img.png" alt="lnbbar">전체메뉴</div>
+            </label>
+            <ul class="menu">
+                <li><a href="./sub_index.html">국내도서</a></li>
+                <li><a href="./sub_index.html">외국도서</a></li>
+                <li><a href="./sub_index.html">신간도서</a></li>
+                <li><a href="./sub_index.html">eBook</a></li>
+                <li><a href="./sub_index.html">음반</a></li>          
+            </ul>
+            <ul class="side_menu">
+                <li><a href="#">기획테마</a></li>
+                <li><a href="#"><i class="fa-solid fa-n"></i>이벤트</a></li>
+                <li><a href="#">회원혜택</a></li>
+                <li><a href="#">출석체크</a></li>
+            </ul>
+
+            <div class="allmenu_sub">
+                <section>
+                    <div class="login_box">
+                        <div>
+                            <span><a href="#">로그인</a></span>
+                            <span><a href="#">회원가입</a></span>
+                        </div>
+            
+                        <div class="loginmention">
+                            <a href="#">
+                                로그인을 하시면<br/>
+                                다양한 서비스를 이용하실 수 있습니다
+                            </a>
+                        </div>
+            
+                    </div>
+        
+                    <div class="totaltab">
+                        <div>
+                            <i class="fa-solid fa-truck"></i>
+                            <p>주문배송</p>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-ticket"></i>
+                            <p>쿠폰</p>
+                        </div>
+                        <div>
+                            <i class="fa-brands fa-product-hunt"></i>
+                            <p>포인트</p>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-clipboard-question"></i>
+                            <p>리뷰</p>
+                        </div>
+                    </div>
+                
+                    <div class="genre">
+                        <div>
+                            <input type="checkbox" id="subdomestic_tab">
+                            <label for="subdomestic_tab" class="d_label">국내도서<i class="fa-solid fa-angle-down"></i></label>
+                            <div class="domestic_hide">
+                                <ul>
+                                    <li><a href="#">소설·시</a></li>
+                                    <li><a href="#">에세이</a></li>
+                                    <li><a href="#">인문</a></li>
+                                    <li><a href="#">역사</a></li>
+                                    <li><a href="#">예술</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="#">종교</a></li>
+                                    <li><a href="#">사회</a></li>
+                                    <li><a href="#">여행</a></li>
+                                    <li><a href="#">잡지</a></li>
+                                    <li><a href="#">경제경영</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                
+                        <div>
+                            <input type="checkbox" id="subforeign_tab">
+                            <label for="subforeign_tab" class="f_label">외국도서<i class="fa-solid fa-angle-down"></i></label>
+                            <div class="foreign_hide">
+                                <ul>
+                                    <li><a href="#">문학소설</a></li>
+                                    <li><a href="#">경제경영</a></li>
+                                    <li><a href="#">인문</a></li>
+                                    <li><a href="#">예술·대중</a></li>
+                                    <li><a href="#">라이프</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="#">종교</a></li>
+                                    <li><a href="#">사회</a></li>
+                                    <li><a href="#">해외원서</a></li>
+                                    <li><a href="#">외국어</a></li>
+                                    <li><a href="#">자기계발</a></li>
+                                </ul>
+                            </div>
+                        </div>
+            
+                        <div>
+                            <input type="checkbox" id="subnewbook_tab">
+                            <label for="subnewbook_tab" class="n_label">신간도서<i class="fa-solid fa-angle-down"></i></label>
+                            <div class="newbook_hide">
+                                <ul>
+                                    <li><a href="#">소설·시</a></li>
+                                    <li><a href="#">에세이</a></li>
+                                    <li><a href="#">인문</a></li>
+                                    <li><a href="#">역사</a></li>
+                                    <li><a href="#">예술</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="#">종교</a></li>
+                                    <li><a href="#">사회</a></li>
+                                    <li><a href="#">여행</a></li>
+                                    <li><a href="#">잡지</a></li>
+                                    <li><a href="#">경제경영</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                
+                        <div>
+                            <input type="checkbox" id="subebook_tab">
+                            <label for="subebook_tab" class="e_label">eBook<i class="fa-solid fa-angle-down"></i></label>
+                            <div class="ebook_hide">
+                                <ul>
+                                    <li><a href="#">소설·시</a></li>
+                                    <li><a href="#">에세이</a></li>
+                                    <li><a href="#">인문</a></li>
+                                    <li><a href="#">역사</a></li>
+                                    <li><a href="#">예술</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="#">종교</a></li>
+                                    <li><a href="#">사회</a></li>
+                                    <li><a href="#">해외원서</a></li>
+                                    <li><a href="#">외국어</a></li>
+                                    <li><a href="#">자기계발</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                
+                        <div>
+                            <input type="checkbox" id="submusic_tab">
+                            <label for="submusic_tab" class="m_label">음반<i class="fa-solid fa-angle-down"></i></label>
+                            <div class="music_hide">
+                                <ul>
+                                    <li><a href="#">가요</a></li>
+                                    <li><a href="#">클래식</a></li>
+                                    <li><a href="#">POP</a></li>
+                                    <li><a href="#">ROCK</a></li>
+                                    <li><a href="#">재즈</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="#">뉴에이지</a></li>
+                                    <li><a href="#">어린이</a></li>
+                                    <li><a href="#">국악</a></li>
+                                    <li><a href="#">종교음악</a></li>
+                                    <li><a href="#">일본음악</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="recent">
+                        <p>최근에 본 상품</p>
+                    </div>
+                    
+                    <div class="service">
+                        <span><a href="#">고객센터</a> |</span>
+                        <span><a href="#">공지사항</a></span>
+                    </div>
+                </section>
+        
+                <label class="close" for="mob"><i class="fa-solid fa-xmark"></i></label>
+            </div>
+        </div>
+    </div>
+    
+    
+
+    <section class="route">
+        <div><a href="/index.html">홈</a></div>
+        <div>></div>
+        <div>
+            <select name="bookroute" id="route1">
+                <option selected><a href="./sub_index.html">국내도서</a></option>
+                <option><a href="#">외국도서</a></option>
+                <option><a href="#">신간도서</a></option>
+                <option><a href="#">eBook</a></option>
+            </select>
+        </div>
+        <div>></div>
+        <div>
+            <select name="bookroute" id="route2">
+                <option><a href="#">소설시</a></option>
+                <option><a href="#">경제경영</a></option>
+                <option><a href="#">에세이</a></option>
+                <option selected><a href="#">인문</a></option>
+                <option><a href="#">역사</a></option>
+                <option><a href="#">예술</a></option>
+                <option><a href="#">종교</a></option>
+                <option><a href="#">사회</a></option>
+                <option><a href="#">여행</a></option>
+                <option><a href="#">잡지</a></option>
+            </select>
+        </div>
+        <div>></div>
+        <div>
+            <select name="bookroute" id="route3">
+                <option selected><a href="#">인문교양</a></option>
+                <option><a href="#">철학사상</a></option>
+                <option><a href="#">종교학</a></option>
+                <option><a href="#">논리학</a></option>
+                
+            </select>
+        </div>
+    </section>
+
+
+<div class="wrap">
+    <section class="contents01">
+        <div class="book_sort">
+            <p>국내도서</p>
+            <ul>
+                <li><a href="#">소설·시</a></li>
+                <li><a href="#">에세이</a></li>
+                <li><a href="#">인문</a></li>
+                <li><a href="#">역사</a></li>
+                <li><a href="#">예술</a></li>
+                <li><a href="#">종교</a></li>
+                <li><a href="#">사회</a></li>
+                <li><a href="#">여행</a></li>
+                <li><a href="#">잡지</a></li>
+                <li><a href="#">경제경영</a></li>
+            </ul>
+            <div class="sort_ad"><a href="#"><img src="./images/booksort_ad.jpg" alt="sort_ad"></a></div>
+        </div>
+
+        <div class="sub_two_box">
+            <div class="visual_ranking_box">
+                <div class="sub_visual_banner">
+                    <input type="radio" name="sub_visual" id="subvisual01" checked>
+                    <input type="radio" name="sub_visual" id="subvisual02">
+                    <input type="radio" name="sub_visual" id="subvisual03">
+                    <input type="radio" name="sub_visual" id="subvisual04">
+                    <div class="sub_visual_label">
+                        <label class="sub_label01" for="subvisual01"><i class="fa-solid fa-minus"></i></label>
+                        <label class="sub_label02"  for="subvisual02"><i class="fa-solid fa-minus"></i></label>
+                        <label class="sub_label03"  for="subvisual03"><i class="fa-solid fa-minus"></i></label>
+                        <label class="sub_label04"  for="subvisual04"><i class="fa-solid fa-minus"></i></label>
+                    </div>
+                    <div class="sub_visual_sheet">
+                        <ul>
+                            <li>
+                                <label for="subvisual04" class="left"><i class="fa-solid fa-less-than"></i></label>
+                                <label for="subvisual02" class="right"><i class="fa-solid fa-greater-than"></i></label>
+                                <div class="sub_sheet01"><a href="#"><img src="./images/sub_visual_banner01.png" alt="subvisual01"></a></div>
+                            </li>
+                            <li>
+                                <label for="subvisual01" class="left"><i class="fa-solid fa-less-than"></i></label>
+                                <label for="subvisual03" class="right"><i class="fa-solid fa-greater-than"></i></label>
+                                <div class="sub_sheet02"><a href="#"><img src="./images/sub_visual_banner02.png" alt="subvisual02"></a></div>
+                            </li>
+                            <li>
+                                <label for="subvisual02" class="left"><i class="fa-solid fa-less-than"></i></label>
+                                <label for="subvisual04" class="right"><i class="fa-solid fa-greater-than"></i></label>
+                                <div class="sub_sheet03"><a href="#"><img src="./images/sub_visual_banner03.png" alt="subvisual03"></a></div>
+                            </li>
+                            <li>
+                                <label for="subvisual03" class="left"><i class="fa-solid fa-less-than"></i></label>
+                                <label for="subvisual01" class="right"><i class="fa-solid fa-greater-than"></i></label>
+                                <div class="sub_sheet04"><a href="#"><img src="./images/sub_visual_banner04.png" alt="subvisual04"></a></div>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                </div>
+                <div class="subranking_box">
+                    <input type="radio" name="subranking_tab" id="subtoday" checked>
+                    <input type="radio" name="subranking_tab" id="subweek">
+                    <div class="subranking_title">국내 도서 베스트</div>
+                    <div class="subranking">
+                        <div class="subranking_label">
+                            <label for="subtoday" class="label_today">오늘</label>
+                            <label for="subweek" class="label_week">주간</label>
+                        </div>
+                        
+                        <div class="subsheet_today">
+                            <ul>
+                                <li>1위<a href="#">마음세탁소</a></li>
+                                <li>2위<a href="#">트렌드 코리아2023</a></li>
+                                <li>3위<a href="#">하얼빈</a></li>
+                                <li>4위<a href="#">아버지의 해방일지</a></li>
+                                <li>5위<a href="#">슬픔이 택배로 왔다</a></li>
+                                <li>6위<a href="#">참 괜찮은 태도</a></li>
+                                <li>7위<a href="#">파친코</a></li>
+                                <li>8위<a href="#">이해찬 회고록</a></li>
+                                <li>9위<a href="#">작은 땅의 야수들</a></li>
+                                <li>10위<a href="#">역행자</a></li>
+                            </ul>
+                        </div>
+                        <div class="subsheet_week">
+                            <ul>
+                                <li>1위<a href="#">아버지의 해방일지</a></li>
+                                <li>2위<a href="#">트렌드 코리아2023</a></li>
+                                <li>3위<a href="#">파친코</a></li>
+                                <li>4위<a href="#">마음세탁소</a></li>
+                                <li>5위<a href="#">슬픔이 택배로 왔다</a></li>
+                                <li>6위<a href="#">참 괜찮은 태도</a></li>
+                                <li>7위<a href="#">하얼빈</a></li>
+                                <li>8위<a href="#">이해찬 회고록</a></li>
+                                <li>9위<a href="#">작은 땅의 야수들</a></li>
+                                <li>10위<a href="#">역행자</a></li>
+                            </ul>
+                        </div>
+                    
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="yp_choice_box">
+                <input type="radio" name="yptab" id="yptab01">
+                <input type="radio" name="yptab" id="yptab02" checked>
+                <input type="radio" name="yptab" id="yptab03">
+                <input type="radio" name="yptab" id="yptab04">
+
+                <div class="yp_choice_sheet">
+                    <div class="yp_sheet01">
+                        <div><a href="#"><img src="./images/yp_choice01.jpg" alt="yp01"></a></div>
+                        <div>
+                            <p>영풍문고의 선택></p>
+                            <p><b><a href="#">흉터쿠키</a></b></p>
+                            <p>이혜미 저 | 현대문학</p>
+                            <p>
+                                <a href="#">
+                                    이혜미의 신작시집, 익숙한 장소와 사물들 속 감정을
+                                    깨워주는 시인의 언어를, 진정한 나를 찾는 여정에서 생긴
+                                    상처와 결핍들을 직시하고 견딘 자만이 가질 수 있는 따뜻하고
+                                    생생한 감정들 이를 고백하는 시가 주는 힘으로 나를 견딜 수 있기를
+                                </a>
+                            </p>
+                            <p>판매가</p>
+                            <p><b>21,000원</b>(10%할인)<i class="fa-solid fa-square-parking"></i>890원</p>
+                        </div>
+                    </div>
+                    <div class="yp_sheet02">
+                        <div><a href="#"></a><img src="./images/yp_choice02.jpg" alt="yp02"></a></div>
+                        <div>
+                            <p>영풍문고의 선택></p>
+                            <p><b><a href="#">다정한 서술자</a></b></p>
+                            <p>올가 토카르추크/최성은 역 | 민음사</p>
+                            <p>
+                                <a href="#">
+                                    노벨문학상 수상 작가 올가 토카르추크의 에세이
+                                    그녀가 말해온 것처럼 무한한 연대와 공감으로 다정함이
+                                    발현된다면 이야기는 언제나 힘을 가지게 될 테다
+                                    문학을 통해 서로를 이해하고 나아간다면 매 순간 기적이
+                                    일어날 거라고도 그 힘으로 우리가 서로를 구할 수 있기를
+                                </a>
+                            </p>
+                            <p>판매가</p>
+                            <p><b>13,500원</b>(10%할인)<i class="fa-solid fa-square-parking"></i>750원</p>
+                        </div>
+                    </div>
+                    <div class="yp_sheet03">
+                        <div><a href="#"><img src="./images/yp_choice03.jpg" alt="yp03"></a></div>
+                        <div>
+                            <p>영풍문고의 선택></p>
+                            <p><b><a href="#">매직 피시</a></b></p>
+                            <p>쭝 레 응우옌/박다솜 역 | 창비교육</p>
+                            <p>
+                                <a href="#">
+                                    만화계의 오스카상이라 불리는 2021년 하비상을 수상한
+                                    신예 작가 쭝 레 응우옌의 그래픽노블 데뷔작
+                                    언어의 벽을 넘어 서로를 사랑하는 방법을 알아가는
+                                    두 모자의 이야기를 서정적으로 그려냈다
+                                    사랑과 응원이 반드시 언어로만 전달되는 건
+                                    아니라는 걸 보여주는 책
+                                </a>
+                            </p>
+                            <p>판매가</p>
+                            <p><b>15,300원</b>(10%할인)<i class="fa-solid fa-square-parking"></i>850원</p>
+                        </div>
+                    </div>
+                    <div class="yp_sheet04">
+                        <div><a href="#"><img src="./images/yp_choice04.jpg" alt="yp04"></a></div>
+                        <div>
+                            <p>영풍문고의 선택></p>
+                            <p><b><a href="#">세계미래보고서 2023</a></b></p>
+                            <p>박영숙, 제롬 글렌 | 비즈니스북스</p>
+                            <p>
+                                <a href="#">
+                                    2005년부터 시작된 『세계미래보고서』최신작
+                                    밀레니엄 프로젝트 내 66개국 4,500명 전문가와 기업인들이
+                                    연구 분석한 미래 예측 시나리오를 담았다 탈중앙화를
+                                    필두로 기후위기와 식량 위기, 우주 경제 전쟁 등
+                                    8가지 주제의 미래 시나리오로 새로운 통찰의 기회를 제공한다
+                                </a>
+                            </p>
+                            <p>판매가</p>
+                            <p><b>16,200원</b>(10%할인)<i class="fa-solid fa-square-parking"></i>900원</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="yp_choice_label">
+                    <label class="choice_label01" for="yptab01">결핍을 견딘<br/>고백이 주는 용기</label>
+                    <label class="choice_label02" for="yptab02">우리의 다정함이<br/>모인다면</label>
+                    <label class="choice_label03" for="yptab03">있는 그대로의 너를<br/>사랑해</label>
+                    <label class="choice_label04" for="yptab04">혼돈의 세상<br/>미래를 전망하다</label>
+                </div>
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <section class="contents02">
+        <div class="editor">
+            <p>
+                오늘<br/>
+                편집자<br/>  
+                추천>>>
+            </p>
+            <div>
+                <a href="#">
+                    <img src="./images/editor01.jpg" alt="edit01">
+                    <p><b>매일 갑니다, 편의점</b></p>
+                    <p>봉달호·시공사</p>
+                    <p><b>12,600원</b></p>
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <img src="./images/editor02.jpg" alt="edit02">
+                    <p><b>오늘도 지킵니다, 편의점</b></p>
+                    <p>봉달호·시공사</p>
+                    <p><b>12,600원</b></p>
+                </a>
+            </div>
+        </div>
+
+        <div class="hot_new_box">
+            <p><b>HOT 장르별 신간</b></p>
+            <p><b><a href="#">더보기</b><i class="fa-solid fa-greater-than"></i></a></p>
+            <div class="hot_new_top">
+                <div>
+                    <a href="../detail_page/detail_index.html">
+                        <img src="./images/hot_new01.jpg" alt="hotnew01">
+                        <p><b>미술관에 간 인문학자</b></p>
+                        <p>15,000원</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="./images/hot_new02.jpg" alt="hotnew02">
+                        <p><b>TOKEVI</b></p>
+                        <p>15,000원</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="./images/hot_new03.jpg" alt="hotnew03">
+                        <p><b>노을의 물리학</b></p>
+                        <p>14,400원</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="./images/hot_new04.jpg" alt="hotnew04">
+                        <p><b>땅은 잘못 없다</b></p>
+                        <p>19,800원</p>
+                    </a>
+                </div>
+            </div>
+            <div class="hot_new_bottom">
+                <div>
+                    <a href="#">
+                        <img src="./images/hot_new05.jpg" alt="hotnew05">
+                        <p><b>쉽게 방전되는 당신을 위한 에너지 사용법</b></p>
+                        <p>14,400원</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="./images/hot_new06.jpg" alt="hotnew06">
+                        <p><b>영어 감정 표현 사전</b></p>
+                        <p>24,300원</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="./images/hot_new07.jpg" alt="hotnew07">
+                        <p><b>KOREA SPECIALTY COFFEE GUIDE</b></p>
+                        <p>22,500원</p>
+                    </a>
+                </div>
+                <div>
+                    <a href="#">
+                        <img src="./images/hot_new08.jpg" alt="hotnew08">
+                        <p><b>DICON BOY ISSUE N.2</b></p>
+                        <p>31,230원</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contents03">
+        <input type="radio" name="seller" id="sell01" checked>
+        <input type="radio" name="seller" id="sell02">
+        <input type="radio" name="seller" id="sell03">
+        <div class="seller">
+            <p><b>스테디 셀러</b></p>
+            <p><a href="#">더보기></a></p>
+            <ul>
+                <li>
+                    <label for="sell03" class="left"><i class="fa-solid fa-less-than"></i></label>
+                    <label for="sell02" class="right"><i class="fa-solid fa-greater-than"></i></label>
+                    <div>
+                        <a href="#">
+                            <img src="./images/seller_01.jpg" alt="seller01">
+                            <p>[인문]</p>
+                            <p><b>눈물 한 방울</b></p>
+                            <p>이어령·김영사</p>
+                            <p><b>14,220원</b></p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <img src="./images/seller_02.jpg" alt="seller02">
+                            <p>[소설]</p>
+                            <p><b>마고</b></p>
+                            <p>한정현·현대문학</p>
+                            <p><b>11,700원</b></p>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <label for="sell01" class="left"><i class="fa-solid fa-less-than"></i></label>
+                    <label for="sell03" class="right"><i class="fa-solid fa-greater-than"></i></label>
+                    <div>
+                        <a href="#">
+                            <img src="./images/seller_03.jpg" alt="seller03">
+                            <p>[소설]</p>
+                            <p><b>해방일지</b></p>
+                            <p>정지아·창비</p>
+                            <p><b>13,500원</b></p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <img src="./images/seller_04.jpg" alt="seller04">
+                            <p>[소설]</p>
+                            <p><b>작별인사</b></p>
+                            <p>김영하·복복서가</p>
+                            <p><b>12,600원</b></p>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <label for="sell02" class="left"><i class="fa-solid fa-less-than"></i></label>
+                    <label for="sell01" class="right"><i class="fa-solid fa-greater-than"></i></label>
+                    <div>
+                        <a href="#">
+                            <img src="./images/seller_05.jpg" alt="seller05">
+                            <p>[자기계발]</p>
+                            <p><b>역설계</b></p>
+                            <p>론·어크로스</p>
+                            <p><b>16,020원</b></p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <img src="./images/seller_06.jpg" alt="seller06">
+                            <p>[소설]</p>
+                            <p><b>아몬드</b></p>
+                            <p>손원평·창비</p>
+                            <p><b>10,800원</b></p>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        
+
+        <input type="radio" name="issue" id="issue01" checked>
+        <input type="radio" name="issue" id="issue02">
+        <input type="radio" name="issue" id="issue03">
+
+        <div class="issue_book">
+            <p><b>화제의 책</b></p>
+            <p><a href="#">더보기></a></p>
+            <ul>
+                <li>
+                    <label for="issue03" class="left"><i class="fa-solid fa-less-than"></i></label>
+                    <label for="issue02" class="right"><i class="fa-solid fa-greater-than"></i></label>
+                    <div>
+                        <a href="#">
+                            <img src="./images/issue_01.jpg" alt="issue01">
+                            <p>[건강]</p>
+                            <p><b>근육 운동 100가지 기본</b></p>
+                            <p>이어령·김영사</p>
+                            <p><b>14,220원</b></p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <img src="./images/issue_02.jpg" alt="issue02">
+                            <p>[소설]</p>
+                            <p><b>시간이 지날수록 빛나는</b></p>
+                            <p>김금숙·남해의봄날</p>
+                            <p><b>11,700원</b></p>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <label for="issue01" class="left"><i class="fa-solid fa-less-than"></i></label>
+                    <label for="issue03" class="right"><i class="fa-solid fa-greater-than"></i></label>
+                    <div>
+                        <a href="#">
+                            <img src="./images/issue_03.jpg" alt="issue03">
+                            <p>[인문]</p>
+                            <p><b>한글의 탄생</b></p>
+                            <p>노마 히데키·돌베개</p>
+                            <p><b>19,800원</b></p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <img src="./images/issue_04.jpg" alt="issue04">
+                            <p>[소설]</p>
+                            <p><b>화이트 타운</b></p>
+                            <p>문경민·노란은행나무</p>
+                            <p><b>13,500원</b></p>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <label for="issue02" class="left"><i class="fa-solid fa-less-than"></i></label>
+                    <label for="issue01" class="right"><i class="fa-solid fa-greater-than"></i></label>
+                    <div>
+                        <a href="#">
+                            <img src="./images/issue_05.jpg" alt="issue05">
+                            <p>[경영]</p>
+                            <p><b>백만장자 시크릿</b></p>
+                            <p>하브에커·RHK</p>
+                            <p><b>14,400원</b></p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <img src="./images/issue_06.jpg" alt="issue06">
+                            <p>[계발]</p>
+                            <p><b>해빙 잇 올</b></p>
+                            <p>존 아사라프·부커비</p>
+                            <p><b>13,500원</b></p>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+            
+        </div>
+    </section>
+
+    <section class="contents04">
+
+        <input type="radio" name="sub_eventtab" id="subeve01">
+        <input type="radio" name="sub_eventtab" id="subeve02" checked>
+        <input type="radio" name="sub_eventtab" id="subeve03">
+        <input type="radio" name="sub_eventtab" id="subeve04">
+
+        <p><b>이벤트</b></p>
+
+        <div class="sub_eve_label">
+            <label class="eve_label01" for="subeve01"><i class="fa-solid fa-minus"></i></label>
+            <label class="eve_label02" for="subeve02"><i class="fa-solid fa-minus"></i></label>
+            <label class="eve_label03" for="subeve03"><i class="fa-solid fa-minus"></i></label>
+            <label class="eve_label04" for="subeve04"><i class="fa-solid fa-minus"></i></label>
+        </div>
+
+        <div class="sub_eve_sheet">
+            <ul>
+                <li>
+                    <label for="subeve04" class="left"><i class="fa-solid fa-less-than"></i></label>
+                    <label for="subeve02" class="right"><i class="fa-solid fa-greater-than"></i></label>
+                    <div class="eve_sheet01">
+                        <a href="#"><img src="./images/sub_event01.jpg" alt="subeve01"></a>
+                        <a href="#"><img src="./images/sub_event02.jpg" alt="subeve01"></a>
+                        <a href="#"><img src="./images/sub_event03.jpg" alt="subeve01"></a>
+                    </div>
+                </li>
+                <li>
+                    <label for="subeve01" class="left"><i class="fa-solid fa-less-than"></i></label>
+                    <label for="subeve03" class="right"><i class="fa-solid fa-greater-than"></i></label>
+                    <div class="eve_sheet02">
+                        <a href="#"><img src="./images/sub_event04.jpg" alt="subeve04"></a>
+                        <a href="#"><img src="./images/sub_event05.png" alt="subeve05"></a>
+                        <a href="#"><img src="./images/sub_event06.jpg" alt="subeve06"></a>
+                    </div>
+                </li>
+                <li>
+                    <label for="subeve02" class="left"><i class="fa-solid fa-less-than"></i></label>
+                    <label for="subeve04" class="right"><i class="fa-solid fa-greater-than"></i></label>
+                    <div class="eve_sheet03">
+                        <a href="#"><img src="./images/sub_event07.jpg" alt="subeve07"></a>
+                        <a href="#"><img src="./images/sub_event08.jpg" alt="subeve08"></a>
+                        <a href="#"><img src="./images/sub_event09.jpg" alt="subeve09"></a>
+                    </div>
+                </li>
+                <li>
+                    <label for="subeve03" class="left"><i class="fa-solid fa-less-than"></i></label>
+                    <label for="subeve01" class="right"><i class="fa-solid fa-greater-than"></i></label>
+                    <div class="eve_sheet04">
+                        <a href="#"><img src="./images/sub_event10.jpg" alt="subeve10"></a>
+                        <a href="#"><img src="./images/sub_event11.jpg" alt="subeve11"></a>
+                        <a href="#"><img src="./images/sub_event12.jpg" alt="subeve12"></a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+</div>
+
+
+<footer class="footer_box">
+    <div class="footer">
+        <div class="footer_top">
+            <ul>
+                <li><a href="#">광고안내</a></li>
+                <li><a href="#">고객센터</a></li>
+                <li><a href="#">청약철회</a></li>
+                <li><a href="#">입점문의</a></li>
+                <li><a href="#">이용약관</a></li>
+                <li><a href="#">개인정보처리방침</a></li>
+                <li><a href="#">영상정보관리방침</a></li>
+                <li><a href="#">이메일 무단 수집거부</a></li>
+            </ul>
+        </div>
+        <div class="footer_bottom">
+            <div class="footer_bottom_left">
+                <img src="../images/yp_logo.png" alt="yp_logo">
+                <div>
+                    <p>회사명 : (주)영풍문고 ㅣ대표이사 : 김경환</p>
+                    <p>소재지 : 서울특별시 강남구 강남대로 542번지 (우)06110    사업자 등록번호 : 773-86-01800</p>
+                    <p>통신판매업 신고번호 : 2020-서울강남-01007<a href="#">[사업자정보확인]</a></p>
+                    <p>개인정보관리 책임자 : 조순제  |  E-mail : customer@ypbooks.co.kr ㅣ 대량주문 : 02-519-2860COPYRIGHT</p>
+                    <p>© YOUNGPOONG BOOKSTORE INC. ALL RIGHTS RESERVED.</p>
+                </div>
+            </div>
+            <div class="footer_bottom_right">
+                <p>고객문의 1544-9020</p>
+                <p>
+                    상담시간 : 월~금 AM 09:00 ~ PM 18:00
+                </p>
+                <p><a href="#">1대 1 고객상담</a></p>
+                <p><a href="#">자주하는 질문</a></p>
+                
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+    
+</body>
+</html>

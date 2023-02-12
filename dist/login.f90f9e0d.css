@@ -1,0 +1,252 @@
+* {margin: 0; padding: 0;}
+li {list-style: none;}
+a {color: black; text-decoration: none;}
+img {display: block;}
+
+body {font-family: 'Malgun Gothic';}
+
+input {text-indent: 10px;}
+
+
+/*-----------------login--------------------*/
+
+.wrap {
+    width: 350px;
+    height: auto;
+    margin: 10px auto;
+}
+.wrap .logo {
+    width: 350px;
+    height: 180px;
+}
+.wrap .logo img {
+    padding-top: 50px;
+    padding-left: 60px;
+}
+.wrap .tab_box .tab div {
+    width: 175px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #eee;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+    cursor: pointer;
+    float: left;
+}
+.wrap .tab_box .tab div:last-child {border-left: none;}
+.wrap .tab_box .tab div.on {
+    background-color: white;
+    border-bottom: none;
+}
+
+
+.wrap .tab_box .sheet_box>div {
+    display: none;
+}
+.wrap .tab_box .sheet_box>div.so {
+    display: block;
+}
+
+.wrap .tab_box .sheet_member,
+.wrap .tab_box .sheet_nonmember {
+    width: 350px;
+    height: 570px;
+}
+.wrap .tab_box .sheet_member .user_id,
+.wrap .tab_box .sheet_member .user_pw {
+    width: 350px;
+    height: 44px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 7px;
+}
+.wrap .tab_box .sheet_member .user_id {margin-top: 30px; margin-bottom: 10px;}
+
+.wrap .tab_box .login_btn {
+    width: 350px;
+    height: 44px;
+    background-color: #666;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    line-height: 44px;
+
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+.wrap .tab_box .sheet_box .chk {
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    margin-top: 10px;
+}
+.wrap .tab_box .sheet_box .chk>div {
+    float: left;
+}
+.wrap .tab_box .sheet_box .chk .chk_color {
+    display: none;
+}
+.wrap .tab_box .sheet_box .chk .chk_color.on {
+    display: block;
+}
+.wrap .tab_box .sheet_box .find {
+    width: 230px;
+    height: 30px;
+    line-height: 30px;
+    text-align: right;
+    float: left;
+    margin-top: 10px;
+}
+.wrap .tab_box .sheet_box .join {
+    width: 350px;
+    height: 44px;
+    background-color: white;
+    border: 1px solid firebrick;
+    border-radius: 7px;
+    font-size: 17px;
+    text-align: center;
+    line-height: 44px;
+
+    margin-top: 30px;
+    float: left;
+}
+.wrap .tab_box .sheet_box .join a {
+    display: block;
+    width: 350px;
+    height: 44px;
+    color: firebrick;
+}
+
+
+
+
+.wrap .sheet_box .sheet_nonmember input {
+    width: 350px;
+    height: 44px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 7px;
+}
+.wrap .sheet_box .sheet_nonmember input:first-child {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.wrap .sheet_box .sheet_nonmember .btn_confirm {
+    width: 350px;
+    height: 44px;
+    background-color: #666;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    line-height: 44px;
+
+    margin-top: 20px;
+    cursor: pointer;
+}
+.wrap .sheet_box .sheet_nonmember .order_find {
+    width: 350px;
+    height: 30px;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 15px;
+}
+.wrap .sheet_box .sheet_nonmember p {
+    width: 350px;
+    height: 35px;
+    text-align: center;
+}
+.wrap .sheet_box .sheet_nonmember .text1 {
+    font-size: 16px;
+    font-weight: bold;
+    color: firebrick;
+    margin-top: 30px;
+}
+.wrap .sheet_box .sheet_nonmember .text2 {
+    font-size: 14px;
+    color: #333;
+}
+.wrap .sheet_box .sheet_nonmember .non_join {
+    width: 350px;
+    height: 44px;
+    background-color: white;
+    border: 1px solid firebrick;
+    border-radius: 7px;
+    font-size: 17px;
+    text-align: center;
+    line-height: 44px;
+
+    margin-top: 30px;
+}
+.wrap .sheet_box .sheet_nonmember .non_join a {
+    display: block;
+    width: 350px;
+    height: 44px;
+    color: firebrick;
+}
+
+
+.wrap .login_sns {
+    width: 350px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+.wrap .login_sns div {
+    width: 40px;
+    height: 40px;
+    margin: 0 7px;
+}
+.wrap .login_sns div img {
+    width: 40px;
+    height: 40px;
+}
+
+
+.wrap .sns_login {
+    width: 350px;
+    height: 44px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    float: left;
+}
+.wrap .sns_login p {
+    width: 120px;
+    text-align: center;
+    float: left;
+}
+.wrap .sns_login hr {
+    width: 110px;
+    border-color: #eee;
+    margin-top: 10px;
+    float: left;
+}
+
+
+.footer {
+    width: 100%;
+    text-align: center;
+    margin-top: 120px;
+}
+.footer hr {
+    border: 1px solid #eee;
+}
+.footer p {
+    height: 45px;
+    line-height: 45px;
+    font-size: 15px;
+    color: #666;
+    margin: 20px;
+}
+
+
+/*# sourceMappingURL=/login.f90f9e0d.css.map */
